@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "zn.qyh.springboot01quickcreate.domain.Person",
+      "sourceType": "zn.qyh.springboot01quickcreate.domain.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "zn.qyh.springboot01quickcreate.domain.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "zn.qyh.springboot01quickcreate.domain.Person"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "zn.qyh.springboot01quickcreate.domain.Person"
+    },
+    {
+      "name": "person.dog",
+      "type": "zn.qyh.springboot01quickcreate.domain.Dog",
+      "sourceType": "zn.qyh.springboot01quickcreate.domain.Person"
+    },
+    {
+      "name": "person.last-name",
+      "type": "java.lang.String",
+      "sourceType": "zn.qyh.springboot01quickcreate.domain.Person"
+    },
+    {
+      "name": "person.lists",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "zn.qyh.springboot01quickcreate.domain.Person"
+    },
+    {
+      "name": "person.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "zn.qyh.springboot01quickcreate.domain.Person"
+    }
+  ],
+  "hints": []
+}

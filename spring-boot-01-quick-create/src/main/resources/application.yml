@@ -1,0 +1,31 @@
+#server:
+#  port: 8080
+#person:
+#  age: 18
+#  boss: false
+#  birth: 2017/12/12
+#  maps: {k1: v1,k2: 12}
+#  lists:
+#    - lisi
+#    - zhaoliu
+#  dog:
+#    name: lucky
+#    age: 2
+#  last-name: 张三
+
+server:
+  port: 8080
+spring:
+  profiles:
+    active: prob
+
+---
+server:
+  port: 8082
+spring:
+  profiles: dev
+---
+server:
+  port: 8083
+spring:
+  profiles: prob

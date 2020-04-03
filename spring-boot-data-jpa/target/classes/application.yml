@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    username: root
+    password: Qq2628908921
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.100.220.208:3306/jpa_Test
+    initialization-mode: always
+  jpa:
+    hibernate:
+#      更新或者创建数据表结构
+      ddl-auto: update
+#      控制台显示sql
+    show-sql: true
+#    schema:
+#      - classpath:sql/department.sql
+#      - classpath:sql/employee.sql
